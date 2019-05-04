@@ -3,14 +3,13 @@
   background-color: rgb(85,82,63);
   color: wheat;
 }
-}
 
 body {
-  
-  background-color: lightblue;
+  background-color: white;
 }
 
 footer {
-  width: 80%;
+
+  width: 100%;
   outline: 5px solid black;
 }
