@@ -1,4 +1,14 @@
 <!DOCTYPE HTML>
+//--------------------------------
+//     TODO list:
+<!-- Complete the following features:
+Use CDNs for content from libraries and remove the source code files from the project, as applicable
+Note: CDNs are available for all libraries except Breakpoints.JS -- Found one!
+In tablet view, show a fixed navigation menu instead of a hamburger menu
+Convert the large image at the top of your portfolio to a video background or an image carousel containing at least three images
+Add any other UI features that you feel will make your portfolio unique and personalized -->
+//---------------------------------------
+
 <!--
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -9,7 +19,14 @@
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/modules/modules.css" />
+    <link rel="stylesheet" href="assets/css/modules/rows.css" />
+    <link rel="stylesheet" href="assets/css/modules/form.css" />
+    <link rel="stylesheet" href="assets/css/modules/icon.css" />
+    <link rel="stylesheet" href="assets/css/state.css" />
+    <link rel="stylesheet" href="styles.css">
 	</head>
 	<body class="is-preload">
 
@@ -21,8 +38,8 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<h1 id="title">Mark Swearingen</h1>
+							<p>Web Software Developer</p>
 						</div>
 
 					<!-- Nav -->
@@ -60,14 +77,12 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt">Hi! I'm <strong>Mark Swearingen</strong></h2>
+								<p>Welcome to my profile page</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#portfolio" class="button scrolly">Created by Mark Swearingen</a>
 							</footer>
 
 						</div>
@@ -81,10 +96,7 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>Mark Swearingen's portfolio.</p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
@@ -97,7 +109,7 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<h3>Hello World</h3>
 										</header>
 									</article>
 								</div>
@@ -105,13 +117,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
-											<h3>Magna Nullam</h3>
+											<h3>Class 201</h3>
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
 										<header>
-											<h3>Natoque Vitae</h3>
+											<h3>Chocolate Pizza</h3>
 										</header>
 									</article>
 								</div>
@@ -144,13 +156,7 @@
 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
-
+							<p>I am an apprentice Wed Software Developer at COCC DevStation.  I will be an apprentice at BMS Technologies begining in August 2019.</p>
 						</div>
 					</section>
 
@@ -195,14 +201,13 @@
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+    <!-- Scripts -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/jquery.scrolly@0.0.1/jquery.scrolly.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/breakpoints-js@1.0.6/dist/breakpoints.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photo-editor/1.0.1/js/main.js"></script>
 	</body>
 </html>
