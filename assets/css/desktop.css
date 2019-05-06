@@ -1,16 +1,14 @@
 * {
-  background-color: rgb(121, 108, 108);
+  background-color: rgb(175, 30, 30);
   outline: 1px dashed blanchedalmond; 
   color: wheat;
-
 }
 
 
-
 @media screen and (min-width: 961px) and (max-width: 1880px) {
-  background-color: lightblue;
+ 
   #main {
-    background-color: brown;
+    background-color: white;
   }
 }
 
@@ -28,4 +26,8 @@
 }
 
 
-
+footer {
+  background-color: white;
+  width: 100%;
+  outline: 5px solid black;
+}
