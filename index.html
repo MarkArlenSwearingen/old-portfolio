@@ -4,7 +4,13 @@
 -1 MVP (needs header image)
 -1 MVP (needs personal headline)
 -1 MVP (project and social sites must link)
+--------------------------------------------------------------------------------
 -1 MVP (style sheets should be imported into one base css file and linked in html file)
+
+I have refactored into just base.css however the instructions say to keep three (base.css, layout.css and modules.css) at a minimum. 
+Refactor the main.css file using SMACSS principles.
+You may decide how many files to include, but at the minimum should include base.css, layout.css, and modules.css. However, think through the way you separate your CSS rules. For example, you may want several CSS files in a modules folder, if you feel that the code needs to be organized in that manner.
+-----------------------------------------------------------------------------------------------
 -1 Idiomatic Styling (clean up comments and unnecessary files) -->
 
 <!-- --------------------------------
@@ -39,9 +45,6 @@ You may choose the exact pixel values for each breakpoint.
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="./assets/css/base.css" />
    
-    <link rel="stylesheet" href="./assets/css/tablet.css" />
-    <link rel="stylesheet" href="./assets/css/desktop.css" />
-   
 	</head>
 	<body class="is-preload">
 
@@ -54,7 +57,8 @@ You may choose the exact pixel values for each breakpoint.
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
 							<h1 id="title">Mark Swearingen</h1>
-							<p>Web Software Developer</p>
+              <p>Web Software Developer</p>
+              <p>BMS Technologies</p>
 						</div>
 
 					<!-- Nav -->
@@ -79,7 +83,6 @@ You may choose the exact pixel values for each breakpoint.
 							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-
 				</div>
 
 			</div>
@@ -93,7 +96,11 @@ You may choose the exact pixel values for each breakpoint.
 
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Mark Swearingen</strong></h2>
-								<p>Welcome to my profile page</p>
+                <p>Welcome to my profile page</p>
+                <p>Currently I am very excited to be learning about the back end servers at Central Oregon Community College DevStation.  I am on my way to becoming a full stack web developer!</p>
+                <p>It's an thrilling, exciting and challenging program</p>
+                <p>So far we have learned HTML, CSS and javaScript as part of the curriculm</p>
+                <p>My team created a small memory game comparing some javscript code into a memory game.  If you know any javaScript, give it a try</p>
 							</header>
 
 							<footer>
@@ -116,43 +123,43 @@ You may choose the exact pixel values for each breakpoint.
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images\Mark picture thumbnail200x300.jpg" alt="A picture of me labelled handsome man" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3>Handsome Man</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images\JenniferandKaz.jpg" alt="" /></a>
 										<header>
-											<h3>Hello World</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Class 201</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Chocolate Pizza</h3>
+											<h3>Jennifer and Kaz on Napa wine train</h3>
 										</header>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="https://happy-noyce-9ecc1e.netlify.com/" class="image fit"><img src="images\wholesale-halloween-costume-prop-unicorn.jpg" alt="Picture of someone wearing a unicorn outfit"/></a>
 										<header>
-											<h3>Dolor Penatibus</h3>
+											<h3>If you're feeling silly. Head on over to the Gallery of Horns.</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="https://pedantic-morse-06f036.netlify.com/" class="image fit"><img src="images\choco-pizza.png" alt="" /></a>
 										<header>
-											<h3>Orci Convallis</h3>
+											<h3>Would you like the recipe for Chocolate Pizza?  Click above to go to the link.</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images\Rubyflower.jpg" alt=" "/></a>
+										<header>
+											<h3>Ruby in a flower garden</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images\ArlenandElaine.jpg" alt="" /></a>
+										<header>
+											<h3>Arlen and Elaine at Tommy Bahama's</h3>
 										</header>
 									</article>
 								</div>
